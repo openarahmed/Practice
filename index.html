@@ -128,6 +128,81 @@
             text-align: center;
             padding: 20px 30px;
         }
+        .hide{
+            display: none;
+        }
+        @media screen and (max-width: 500px) {
+            hr{
+            border: 1px solid rgba(128, 128, 128, 0.542);
+            width: 100%;
+            margin-top: 10px;
+        }
+        .first{
+            flex-direction: column-reverse;
+            
+    
+    
+    margin: 0 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+        }
+        .third{
+            flex-direction: column-reverse;
+            font-size: 20px;
+    text-align: center;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+        }
+        .camera{
+            background-size: 100%;
+            background-position: bottom 5px right 5px;
+            
+        }
+        .main img{
+            width: 100%;
+        }
+        
+        .first-sub h1{
+            font-size: 45px;
+            font-size: 25px;
+            
+        }
+        .first-sub{
+            text-align: center;
+            
+        }
+        .last img{
+            width: 90%;
+            margin-top: 50px;
+        }
+        .nav-sub{
+            flex-direction: column;
+            margin: 0 5px;
+            text-align: center;
+            font-size:;
+        }
+        .span-two{
+            gap: 5px;
+        }
+        .heax{
+            font-size: 35px;
+        }
+        .logos{
+            flex-wrap: wrap;
+        }
+        .parent{
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 10px;
+    margin-right: 10px;
+        }
+        .last-buttom {
+    position: relative;
+    left: 10px;
+        
+    }
     </style>
 </head>
 
@@ -136,7 +211,7 @@
         <nav class="">
             <div class="nav-sub">
                 <span>
-                    <h3>Influencer products</h3>
+                    <h3 class="heax">Influencer products</h3>
                 </span>
 
                 <span class="span-two">
@@ -181,7 +256,7 @@
         
     </main>
     <hr>
-    <section>
+    <section class="">
         <h1 class="title">main collection</h1>
         <div class="parent">
             
@@ -358,7 +433,7 @@
     </section>
     <section>
         <div class="third">
-            <div>
+            <div class="last">
                 <img src="./influencer-gear-main/images/gear.png" alt="">
             </div>
             <div>
@@ -368,7 +443,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="hide">
         <div class="footer-sub">
             <div class="footer">
                 <h1>Influencer products</h1>
